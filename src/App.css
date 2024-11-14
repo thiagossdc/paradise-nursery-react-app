@@ -1,0 +1,208 @@
+/* Reset de estilos básicos */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilização do corpo */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+/* Estilização do Navbar */
+nav {
+  background-color: #2d6a4f;
+  color: #fff;
+  padding: 15px;
+  text-align: center;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  margin: 0 15px;
+  font-size: 18px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Layout do Landing Page */
+h1 {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 36px;
+  color: #2d6a4f;
+}
+
+button {
+  background-color: #2d6a4f;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+button:hover {
+  background-color: #1b4d33;
+}
+
+/* Estilização das seções de produtos */
+h2 {
+  margin-top: 30px;
+  font-size: 28px;
+  color: #2d6a4f;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.product-listing {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-bottom: 50px;
+}
+
+.product-listing > div {
+  width: 250px;
+  margin: 15px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.product-listing img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.product-listing h3 {
+  margin-top: 10px;
+  font-size: 20px;
+  color: #333;
+}
+
+.product-listing p {
+  margin-top: 10px;
+  font-size: 16px;
+  color: #777;
+}
+
+.product-listing button {
+  background-color: #2d6a4f;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.product-listing button:hover {
+  background-color: #1b4d33;
+}
+
+/* Estilização do Cart */
+.cart-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.cart-container h2 {
+  font-size: 28px;
+  color: #2d6a4f;
+}
+
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin-bottom: 20px;
+  padding: 15px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.cart-item img {
+  width: 60px;
+  height: 60px;
+  border-radius: 5px;
+}
+
+.cart-item h3 {
+  font-size: 18px;
+  color: #333;
+}
+
+.cart-item .quantity {
+  display: flex;
+  align-items: center;
+}
+
+.cart-item .quantity input {
+  width: 40px;
+  padding: 5px;
+  margin-left: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.cart-item button {
+  background-color: #e63946;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.cart-item button:hover {
+  background-color: #c42730;
+}
+
+.cart-buttons {
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  margin-top: 30px;
+}
+
+.cart-buttons button {
+  background-color: #2d6a4f;
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.cart-buttons button:hover {
+  background-color: #1b4d33;
+}
+
+/* Estilo para o rodapé */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #2d6a4f;
+  color: white;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
