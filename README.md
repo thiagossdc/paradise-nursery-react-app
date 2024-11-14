@@ -1,3 +1,50 @@
+## Paradise Nursery Shopping Cart
+Welcome to Paradise Nursery, a delightful online store where you can browse a variety of beautiful house plants! This app allows you to explore our collection, add your favorite plants to the cart, and easily manage your shopping experience.
+
+## Features
+Landing Page: Welcome screen with a button that links to the product listing.
+Navigation Bar: Links to the landing page, product listing, and shopping cart pages.
+Product Cards: Each plant is showcased with its image, name, description, cost, and an "Add to Cart" button.
+Product Categories: Two sections describing different plant types, such as "Aromatic Plants" and "Medicinal Plants".
+Shopping Cart: View the plants added to your cart, along with options to increase or decrease quantities, remove items, and see the updated cost.
+Buttons for Continuing Shopping and Checkout: Easy navigation to keep shopping or proceed to checkout.
+Getting Started
+To get started with Paradise Nursery, follow the steps below to set up the project on your local machine.
+
+## Prerequisites
+Node.js: Make sure you have Node.js installed. You can verify the installation by running:
+
+
+node -v
+npm: npm comes bundled with Node.js, and you can verify it with:
+
+npm -v
+Installation
+Clone the repository: Start by cloning the repository to your local machine:
+
+git clone https://github.com/yourusername/paradise-nursery.git
+Navigate to the project directory: After cloning the repo, navigate into the project directory:
+
+cd paradise-nursery
+Install dependencies: Run the following command to install all the necessary dependencies for the project:
+
+npm install
+Running the App
+Once the dependencies are installed, you can start the development server:
+
+
+npm start
+This will launch the app in your browser at http://localhost:3000. You can now start interacting with the app and explore the features!
+
+## How It Works
+React Components: The app is built using React, where each plant is a separate component. Components are composed and nested to create the full page layout.
+State Management: The app uses React hooks (useState, useEffect) for managing state, including the shopping cart and product listings.
+Redux: We use Redux to manage the global state of the cart, ensuring smooth interaction with product data across different components.
+Styling: The app uses simple CSS (in App.css) to provide a clean and modern look.
+Contributing
+We welcome contributions! Feel free to fork this repository, create a branch, and submit pull requests. If you have ideas for new features or improvements, don't hesitate to open an issue or submit a PR.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
